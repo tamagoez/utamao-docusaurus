@@ -1,12 +1,12 @@
 module.exports = {
-  title: 'UtamakeNext',
-  tagline: '次を生きるうたまけ',
-  url: 'https://vercel-utamake-docusaurus.vercel.app/',
+  title: 'UtamaoNext',
+  tagline: '先を行くうたまお',
+  url: 'https://utamao-docusaurus.vercel.app/',
   baseUrl: '/',
   baseUrlIssueBanner: true, // Defaults to `true`
   favicon: 'img/favicon.ico',
-  organizationName: 'utamake', // Usually your GitHub org/user name.
-  projectName: 'vercel-utamake-docusaurus', // Usually your repo name.
+  organizationName: 'utamao', // Usually your GitHub org/user name.
+  projectName: 'utamao-docusaurus', // Usually your repo name.
   onBrokenLinks: 'warn',
   plugins: ['@docusaurus/plugin-google-analytics'],
   themeConfig: {
@@ -16,9 +16,9 @@ module.exports = {
       anonymizeIP: true, // Should IPs be anonymized?
       },
     navbar: {
-      title: 'UtamakeNext',
+      title: 'UtamaoNext',
       logo: {
-        alt: 'UtamakeNext',
+        alt: 'UtamaoNext',
         src: 'img/logo.png',
       },
       items: [
@@ -33,11 +33,11 @@ module.exports = {
         {to: 'futures/home', label: 'Futures', position: 'left'},
         {
           href: 'https://utamake.minecraftr.us',
-          label: 'UtamakePages',
+          label: '(UtamakePages)',
           position: 'right',
         },
         {
-          href: 'https://github.com/tabascoes/vercel-utamake-docusaurus',
+          href: 'https://github.com/tabascoes/utamao-docusaurus',
           label: 'GitHub',
           position: 'right',
         },
@@ -84,17 +84,17 @@ module.exports = {
               to: 'blog',
             },
             {
-              label: 'UtamakePages',
+              label: '(UtamakePages)',
               href: 'https://utamake.minecraftr.us/',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/tabascoes/vercel-utamake-docusaurus',
+              href: 'https://github.com/tabascoes/utamao-docusaurus',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Utamake, Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Utamao, Built with Docusaurus.`,
     },
   },
   presets: [
@@ -105,13 +105,13 @@ module.exports = {
           sidebarPath: require.resolve('./docs/sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/tabascoes/vercel-utamake-docusaurus/edit/main/',
+            'https://github.com/tabascoes/utamao-docusaurus/edit/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/tabascoes/vercel-utamake-docusaurus/edit/main/blog/',
+            'https://github.com/tabascoes/utamao-docusaurus/edit/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -126,7 +126,7 @@ module.exports = {
         id: 'wiki',
         path: 'wiki',
         routeBasePath: 'wiki',
-        editUrl: "https://github.com/tabascoes/vercel-utamake-docusaurus/edit/main",
+        editUrl: "https://github.com/tabascoes/utamao-docusaurus/edit/main",
         editCurrentVersion: true,
         sidebarPath: require.resolve('./wiki/sidebars.js'),
         showLastUpdateAuthor: true,
@@ -139,7 +139,7 @@ module.exports = {
         id: 'news',
         path: 'news',
         routeBasePath: 'news',
-        editUrl: "https://github.com/tabascoes/vercel-utamake-docusaurus/edit/main",
+        editUrl: "https://github.com/tabascoes/utamao-docusaurus/edit/main",
         editCurrentVersion: true,
         sidebarPath: require.resolve('./news/sidebars.js'),
         showLastUpdateAuthor: true,
@@ -152,7 +152,7 @@ module.exports = {
         id: 'futures',
         path: 'futures',
         routeBasePath: 'futures',
-        editUrl: "https://github.com/tabascoes/vercel-utamake-docusaurus/edit/main",
+        editUrl: "https://github.com/tabascoes/utamao-docusaurus/edit/main",
         editCurrentVersion: true,
         sidebarPath: require.resolve('./futures/sidebars.js'),
         showLastUpdateAuthor: true,
