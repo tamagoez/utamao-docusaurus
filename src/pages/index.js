@@ -61,7 +61,7 @@ function Home() {
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}<br><br>現在絶賛改築作業中!<br>ページがより見やすく!</p>
+          <p className="hero__subtitle">{siteConfig.tagline}<br /><br />現在絶賛改築作業中!<br />ページがより見やすく!</p>
           <div className={styles.buttons}>
             <Link
               className={classnames(
