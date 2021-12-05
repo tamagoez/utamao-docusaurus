@@ -1,7 +1,8 @@
 # ドリップストーン
 <h5>現在更新中
 最終変更:2021/07/08 21:27</h5>
-<h5>Author: [たまご](/wiki/author/tamagoes)</h5>
+
+##### Author: [たまご](/wiki/author/tamagoez)
 
 ## 生成
 **自然生成**される。  
