@@ -3,7 +3,7 @@ id: item-name
 title: アイテム名前案
 ---
 
-## [たまご](/wiki/author/tamagoes)
+## [たまご](/wiki/author/tamagoez)
 | アイテム     | 名前| 
 | ------------ | ---- | 
 | つるはし | ピック得る |

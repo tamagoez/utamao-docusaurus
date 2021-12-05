@@ -1,5 +1,5 @@
 # #1 TIPS
-Author: [たまご](/wiki/author/tamagoes)
+Author: [たまご](/wiki/author/tamagoez)
 <h5>最終変更:2021/07/08 13:48</h5>
 
  - 雨の時、つりは**20%** SPEEDUP
